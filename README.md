@@ -4,6 +4,8 @@
 
 代码仓库：[GitHub](https://github.com/cp3126675-arch/niulai-museum)
 
+在线参观：[牛来博物馆](https://niulai-museum.pages.dev/)
+
 ## 本地浏览
 
 - 直接打开 `dist/index.html` 即可离线浏览；也可在 dist 目录启动静态服务器。
