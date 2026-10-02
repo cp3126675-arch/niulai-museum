@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeece5">
+  <meta name="description" content="牛来博物馆：当一只牛走进艺术史。三件以牛来形象重新演绎的名作，一场过分认真的抽象展览。">
+  <title>牛来博物馆 · THE NIULAI MUSEUM</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#collection">跳至典藏</a>
+<header>
+  <a class="brand" href="#top" aria-label="牛来博物馆首页"><span class="seal" aria-hidden="true">牛</span><span>牛来博物馆<small>THE NIULAI MUSEUM</small></span></a>
+  <nav aria-label="主导航"><a href="#collection">常设典藏</a><a href="#preface">策展序言</a></nav>
+  <button id="theme" class="theme" type="button" aria-label="切换为夜间展厅" aria-pressed="false"><span aria-hidden="true">◐</span><span class="theme-label">夜间展厅</span></button>
+</header>
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="tiny-line"></span> 常设展览 · 第一辑</p>
+      <h1 id="hero-title">艺术很长。<br>牛来<span class="red">了。</span></h1>
+      <p class="hero-en">A very serious museum.<br>A very unexpected guest.</p>
+      <p class="hero-description">从文艺复兴的微笑，到世纪末的呐喊。<br>艺术史没有变，只是主角换成了牛来。</p>
+      <a class="enter" href="#collection">进入典藏 <span aria-hidden="true">03 件展品</span></a>
+      <div class="hero-bottom"><span>线上常设 · 随时入馆</span><span>VOL. 001 / 2026</span></div>
+    </div>
+    <button class="hero-art" type="button" data-work="mona" aria-label="查看镇馆之作：蒙牛丽莎">
+      <img src="assets/mona.png" alt="牛来化身蒙娜丽莎，双手交叠，坐在幽远的山水前" fetchpriority="high">
+      <span class="hero-art-top">THE PERMANENT COLLECTION</span>
+      <span class="hero-art-caption"><span><small>镇馆之作 / NO. 001</small><strong>蒙牛丽莎</strong></span><span class="view-label">查看作品</span></span>
+    </button>
+  </section>
+  <div class="exhibition-strip" aria-label="展览信息"><span>NIULAI, THROUGH THE AGES</span><span>三个时代，一张似曾相识的脸。</span><span>1503 — 1893</span></div>
+  <section class="collection" id="collection" aria-labelledby="collection-title">
+    <div class="section-heading"><div><p class="eyebrow">01 / THE COLLECTION</p><h2 id="collection-title">常设典藏<span>第一展厅</span></h2></div><p>请靠近观看。<br>它们可能也在看你。</p></div>
+    <div class="collection-tools"><div class="filters" role="group" aria-label="按艺术时期筛选"><button type="button" class="active" aria-pressed="true" data-filter="all">全部典藏 <sup>03</sup></button><button type="button" aria-pressed="false" data-filter="renaissance">文艺复兴</button><button type="button" aria-pressed="false" data-filter="baroque">巴洛克</button><button type="button" aria-pressed="false" data-filter="expression">表现主义先声</button></div><span class="count" aria-live="polite" id="count">展出 3 件</span></div>
+    <div class="gallery">
+      <article class="work" data-era="renaissance"><button class="art-button" type="button" data-work="mona" aria-label="查看蒙牛丽莎详情"><span class="art-number">001</span><div class="picture"><img src="assets/mona.png" alt="牛来版蒙娜丽莎油画" loading="lazy"></div><span class="art-open">观看作品 ＋</span></button><div class="work-meta"><span>文艺复兴 / 约 1503–1519</span><span>NO. 001</span></div><h3><button data-work="mona" type="button">蒙牛丽莎</button></h3><p>Mona Niulisa</p><div class="work-original">灵感原作：达·芬奇《蒙娜丽莎》</div></article>
+      <article class="work" data-era="baroque"><button class="art-button" type="button" data-work="pearl" aria-label="查看戴珍珠耳环的牛来详情"><span class="art-number">002</span><div class="picture"><img src="assets/pearl.png" alt="戴着蓝金色头巾与珍珠耳环，回头凝视的牛来" loading="lazy"></div><span class="art-open">观看作品 ＋</span></button><div class="work-meta"><span>巴洛克 / 约 1665</span><span>NO. 002</span></div><h3><button data-work="pearl" type="button">戴珍珠耳环的牛来</button></h3><p>Niulai with a Pearl Earring</p><div class="work-original">灵感原作：维米尔《戴珍珠耳环的少女》</div></article>
+      <article class="work" data-era="expression"><button class="art-button" type="button" data-work="scream" aria-label="查看牛来的呐喊详情"><span class="art-number">003</span><div class="picture"><img src="assets/scream.png" alt="牛来站在红色天空下的桥上，双手捂脸呐喊" loading="lazy"></div><span class="art-open">观看作品 ＋</span></button><div class="work-meta"><span>表现主义先声 / 1893</span><span>NO. 003</span></div><h3><button data-work="scream" type="button">牛来的呐喊</button></h3><p>The Scream of Niulai</p><div class="work-original">灵感原作：蒙克《呐喊》</div></article>
+    </div>
+    <p class="collection-footnote">年代标注为灵感原作年代。本馆展品均为 AI 辅助创作的戏仿作品。</p>
+  </section>
+  <section class="preface" id="preface" aria-labelledby="preface-title"><div><p class="eyebrow">02 / CURATORIAL NOTE</p><h2 id="preface-title">欢迎来到<br>牛来的艺术史。</h2><span class="preface-mark" aria-hidden="true">N.</span></div><div class="preface-copy"><p class="lead">如果名画里的主角，<br>都长着同一张不太聪明的脸。</p><p>我们借来名画的构图、光线与姿态，把牛来安放其中。半睁的眼睛，略显僵硬的神情，还有那个无论身在何处都很熟悉的嘴巴。</p><p>笑点来自错位。但当你多看一会儿，也许会重新注意到那片远山、一颗耳环，或天空里不安的曲线。</p><p class="curator-sign">请慢慢看。牛来不赶时间。<span>— 牛来博物馆策展手记</span></p></div></section>
+</main>
+<footer><a href="#top" class="footer-title">牛来博物馆<span>THE NIULAI MUSEUM</span></a><div><p>一场过分认真的抽象展览。</p><p class="legal">非官方同人艺术项目 · 与《牛来》电影制作方无关联<br>角色权益归原权利人所有 · 展品为名作戏仿，非历史原作</p></div><a href="#top" class="back-top">回到入口</a></footer>
+<dialog id="art-dialog" aria-labelledby="detail-title"><div class="dialog-toolbar"><span id="detail-index">馆藏 / 001</span><button id="close-dialog" type="button" aria-label="关闭作品详情">关闭 <span aria-hidden="true">×</span></button></div><div class="detail-layout"><div class="detail-picture"><img id="detail-image" alt=""></div><div class="detail-copy"><p class="eyebrow" id="detail-era"></p><h2 id="detail-title"></h2><p class="detail-en" id="detail-en"></p><dl><div><dt>灵感原作</dt><dd id="detail-original"></dd></div><div><dt>原作艺术家</dt><dd id="detail-artist"></dd></div><div><dt>原作年代</dt><dd id="detail-year"></dd></div><div><dt>本馆创作</dt><dd>2026 · AI 辅助戏仿</dd></div></dl><h3>观看提示</h3><p id="detail-note"></p><blockquote id="detail-quote"></blockquote><div class="detail-navigation"><button id="previous" type="button">上一件</button><span id="detail-position">01 / 03</span><button id="next" type="button">下一件</button></div><p class="keyboard-hint">使用左右方向键换展品 · Esc 退出</p></div></div></dialog>
+</body>
+</html>
