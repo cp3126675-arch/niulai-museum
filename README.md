@@ -2,10 +2,30 @@
 
 名作戏仿线上展厅，首辑三件：蒙牛丽莎、戴珍珠耳环的牛来、牛来的呐喊。
 
+代码仓库：[GitHub](https://github.com/cp3126675-arch/niulai-museum)
+
+## 本地浏览
+
 - 直接打开 `dist/index.html` 即可离线浏览；也可在 dist 目录启动静态服务器。
 - 支持艺术时期筛选、作品详情、左右键切换、Esc 退出，以及记住明暗模式偏好。
 - 所有展品图片均保存在 `dist/assets`，使用内置 ImageGen 生成。完整提示词见 `notes/image-prompts.json`。
 - 界面和实现为本项目重新编写，参考奶蛙博物馆的正式展馆语气与名作戏仿理念。
+
+## 发布到 Cloudflare Pages
+
+网站无需构建，发布目录为 `dist`。本项目使用 Wrangler 直接上传到 Cloudflare Pages，GitHub 用于保存源代码；推送 GitHub 不会自动部署。
+
+首次在新设备上发布前，用 `npx wrangler@4.146.0 login` 登录有本项目访问权的 Cloudflare 账号。
+
+```sh
+npm run check
+git push github main
+npm run deploy
+```
+
+从 GitHub 克隆项目时，将上述 `github` 改为 `origin`。无需 API 密钥写入代码。
+
+`wrangler.jsonc` 为 Cloudflare Pages 配置；`.openai/hosting.json` 保留原 Sites 站点记录，不参与 Cloudflare 发布。
 
 参考网页：https://works.cohub.live/w/157e937b-95da-4c17-add4-f916e37c3574/milk-frog-museum/1980bbadcb26/content/index.html?darkmode=0
 

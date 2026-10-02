@@ -1,0 +1,11 @@
+{
+  "name": "niulai-museum",
+  "private": true,
+  "version": "1.0.0",
+  "description": "牛来博物馆：名作戏仿线上展厅",
+  "scripts": {
+    "check": "node --check dist/app.js",
+    "preview": "npx --yes wrangler@4.146.0 pages dev dist",
+    "deploy": "npx --yes wrangler@4.146.0 pages deploy dist --project-name niulai-museum --branch main"
+  }
+}
