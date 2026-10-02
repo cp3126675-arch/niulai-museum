@@ -16,6 +16,106 @@
       "title": "The Scream",
       "path": "dist/assets/scream.png",
       "prompt": "Use case: stylized-concept. Asset: portrait-format museum artwork, no frame. Reference image is character identity only. ONLY depict the SMALL ORANGE CALF AT THE LEFT of the reference. Ignore the tall central adult bull and leopard entirely. This small calf is Niulai: oddly awkward early-Chinese-CGI humanoid calf with a large smooth round slightly flattened bald-looking forehead, tiny dark horns, horizontally protruding broad ears, small half-lidded sleepy eyes under flat brows, protruding lavender-gray short muzzle and unusually humanlike thick lips, orange-yellow fuzzy skin and short stocky humanoid proportions. Preserve this precise peculiar slightly ugly sleepy face; avoid generic cute Pixar cow, cute big eyes, long cattle snout, realistic cattle, tall adult bull. Translate its identity into the requested historical painted medium. Beautiful credible hand-painted pigment and canvas texture, not a CGI render. No words, text, logos, signatures, watermark, frame, labels or UI. Portrait aspect ratio 3:4. Create The Scream parody: Niulai occupies the central foreground of the iconic Munch composition, both small humanlike hands pressed against cheeks, mouth open in existential bewilderment, still recognizably the reference small calf's lavender-gray muzzle, flattened round orange head and tiny horns. Diagonal wooden bridge railing running into distance, distant two small silhouettes, blue black curving fjord, violently swirling red and orange sunset sky. Authentic expressionist oil and pastel strokes with wavering lines, unnerving and comically confused mood."
+    },
+    {
+      "id": "ermine",
+      "path": "dist/assets/ermine.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Leonardo da Vinci's Lady with an Ermine (c.1489–1490). Vertical 3:4 portrait. A female Niulai calf in elegant Renaissance burgundy and blue dress, turned three-quarter to viewer right, delicate black bead necklace and fine hairband, holding a white ermine across her arms. Dark near-black background, masterful sfumato oil on panel, luminous orange fur face and pale ermine, quietly ridiculous sleepy expression.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "milkmaid",
+      "path": "dist/assets/milkmaid.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Johannes Vermeer's The Milkmaid (c.1660). Vertical 3:4. One Niulai calf wearing yellow jacket, blue apron and white cap, standing beside rustic table and carefully pouring a visible narrow stream of milk from a ceramic jug into a bowl. Crusty bread and basket on table, pale plaster wall, high window at left casting cool daylight. Complete mid-length interior composition, Dutch Golden Age precise tactile oil painting.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "swing",
+      "path": "dist/assets/swing.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Jean-Honoré Fragonard's The Swing (1767). Vertical 3:4. Central Niulai calf in billowing pink Rococo dress riding a swing suspended from a great tree, full figure and swaying skirt visible, lifted shoe, dynamic diagonals in a lush romantic garden of flowers, foliage and cupid statuary. Include the characteristic two smaller suitor figures as Niulai calves in period clothing, one reclined in shrubbery and one pushing the swing from behind. Dappled sunlight, delicate Rococo oil brushwork.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "napoleon",
+      "path": "dist/assets/napoleon.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Jacques-Louis David's Napoleon Crossing the Alps (1801). Vertical 3:4. Heroic but sleepy Niulai calf wearing a bicorne and a dramatically billowing red cloak, mounted on a rearing white horse with full horse shape and rocky forefeet visible. Calf gestures uphill with raised hand. Strong diagonal mountain composition, stormy sky, distant tiny troops. Neoclassical oil painting and precise folds, no inscriptions anywhere including stones.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "wanderer",
+      "path": "dist/assets/wanderer.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Caspar David Friedrich's Wanderer above the Sea of Fog (1818). Vertical 3:4. One short humanoid Niulai calf in a dark green frock coat stands full length atop a rocky summit, back to viewer, one hand holding a walking stick. Slight turn of head gives a small profile of lavender-gray muzzle and horizontal ear while preserving the iconic back-view silhouette. Vast misty mountains and islands of rock beneath fog. Romantic oil painting, restrained gray-blue palette with calf's orange head as subtle warm contrast.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "gleaners",
+      "path": "dist/assets/gleaners.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Jean-François Millet's The Gleaners (1857). Horizontal 4:3. Exactly THREE Niulai calves as peasant gleaners in worn long dresses, aprons and headscarves bending at different heights to gather leftover wheat by hand in the foreground. All three clearly orange-furred Niulai with recognizable lavender muzzles and small horns when visible, no human heads. Panoramic harvested golden fields, distant haystacks, subdued earthy gold brown and blue, painterly realism.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "bandaged",
+      "path": "dist/assets/bandaged.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Vincent van Gogh's Self-Portrait with Bandaged Ear (1889). Vertical 3:4 bust portrait of Niulai calf in a thick green coat and dark fur cap, white bandage wrapped around head and one ear, broad horizontal ear and small horns still recognizable where uncovered. Sleepy awkward face with protruding lavender-gray lips. Olive studio background and a simplified Japanese print with pictorial shapes only, no lettering. Strong directional impasto oil brushstrokes, vivid green and ocher.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "gypsy",
+      "path": "dist/assets/gypsy.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Henri Rousseau's The Sleeping Gypsy (1897). Horizontal 3:2. One Niulai calf reclining asleep in a colorful striped robe on a moonlit desert, full reclining body spanning foreground, lavender muzzle clearly recognizable in profile, small horns and orange face. A natural lion stands near the sleeper's head; nearby a mandolin and clay jar. Pale round moon in deep blue sky, remote mountain silhouettes, naive dreamlike precise flat oil painting. Uncanny stillness, no human figures.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "kiss",
+      "path": "dist/assets/kiss.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Gustav Klimt's The Kiss (1907–1908). Square original-appropriate composition. Exactly TWO Niulai calves as an embracing couple on a little flower bed, one bends to kiss the other's cheek, both faces clearly orange-furred Niulai with sleepy half-lidded eyes and lavender-gray humanlike muzzles, tender but ridiculous. Elaborate gold mosaic robes, one decorated with black rectangular motifs and one with colorful circles. Flat shimmering golden backdrop, Byzantine decorative oil and gold-leaf texture. No human heads.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
+    },
+    {
+      "id": "gothic",
+      "path": "dist/assets/gothic.png",
+      "prompt": "Use case: historical-scene. Asset type: one standalone high-quality Niulai Museum parody painting. Make a NEW individual painting, with no collage or panels. Input images 1 and 2 are IDENTITY REFERENCE ONLY: keep exactly the same distinct awkward orange-yellow fuzzy short humanoid calf Niulai from those portraits. Rounded forehead, small dark horns, broad horizontal ears, sleepy half-lidded humanlike eyes, protruding lavender-gray muzzle and thick humanlike lips. Never a generic cute cow, no realistic elongated bovine snout, no large black-and-white spots. Every human figure specified below must be Niulai with this identity, including hands being orange fur humanoid hands. Translate its fur and form into the requested historical painterly medium, no 3D render. Faithful iconic original composition and setting while replacing the person or people with Niulai. Full composition visible, edge-to-edge artwork, no surrounding frame. NO text, letters, numbers, signature, watermark, border, interface. Parody of Grant Wood's American Gothic (1930). Vertical 3:4 double portrait. Exactly TWO Niulai calves as a stern rural farmer father and adult daughter standing in front of a white timber Gothic farmhouse with iconic pointed arched upper window. Farmer with round spectacles, overalls and black jacket holds upright three-tined pitchfork; daughter in patterned apron with brooch. Their calf heads have the same orange fur, small horns, broad ears, lavender-gray muzzle and sleepy expression. Precise American Regionalist oil technique and complete iconic shoulder-to-waist composition.",
+      "mode": "built-in imagegen",
+      "reference": [
+        "dist/assets/mona.png",
+        "dist/assets/pearl.png"
+      ]
     }
   ]
 }

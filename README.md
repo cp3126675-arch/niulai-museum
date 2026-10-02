@@ -1,6 +1,6 @@
 # 牛来博物馆
 
-名作戏仿线上展厅，首辑三件：蒙牛丽莎、戴珍珠耳环的牛来、牛来的呐喊。
+名作戏仿线上展厅，共十三件牛来版名画。第二辑新增抱银鼠的牛来、倒牛奶的牛来、牛来荡秋千、牛来翻越阿尔卑斯山、雾海上的牛来、拾穗的牛来们、缠绷带的牛来自画像、沉睡的牛来、牛来之吻、美式牛来。
 
 代码仓库：[GitHub](https://github.com/cp3126675-arch/niulai-museum)
 
@@ -11,6 +11,7 @@
 - 直接打开 `dist/index.html` 即可离线浏览；也可在 dist 目录启动静态服务器。
 - 支持艺术时期筛选、作品详情、左右键切换、Esc 退出，以及记住明暗模式偏好。
 - 所有展品图片均保存在 `dist/assets`，使用内置 ImageGen 生成。完整提示词见 `notes/image-prompts.json`。
+- 馆藏文字、年份和原作资料链接维护在 `content/works.json`，运行 `npm run build` 同步网页卡片及详情数据。
 - 界面和实现为本项目重新编写，参考奶蛙博物馆的正式展馆语气与名作戏仿理念。
 
 ## 发布到 Cloudflare Pages
@@ -20,6 +21,7 @@
 首次在新设备上发布前，用 `npx wrangler@4.146.0 login` 登录有本项目访问权的 Cloudflare 账号。
 
 ```sh
+npm run build
 npm run check
 git push github main
 npm run deploy
